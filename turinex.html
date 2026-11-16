@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#10213f">
+<title>TURINEX | Transport, logistique et mobilité</title>
+<meta name="description" content="TURINEX, une marque du groupe ADDIBA dédiée au transport, à la logistique et aux solutions de mobilité.">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #17233b;
+  line-height: 1.7;
+}
+
+header {
+  background: #10213f;
+  padding: 18px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo {
+  color: white;
+  font-size: 29px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+.logo span { color: #ff9b35; }
+
+nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover { color: #ff9b35; }
+
+.hero {
+  background: linear-gradient(135deg, #10213f, #244c70);
+  color: white;
+  text-align: center;
+  padding: 105px 20px;
+}
+
+.hero-symbol {
+  font-size: 65px;
+  margin-bottom: 10px;
+}
+
+.hero h1 {
+  font-size: 46px;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  max-width: 720px;
+  margin: auto;
+  color: #dce5f3;
+  font-size: 18px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 13px 28px;
+  background: #ff9b35;
+  color: #10213f;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+section { padding: 75px 7%; }
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title h2 {
+  color: #10213f;
+  font-size: 32px;
+}
+
+.section-title span {
+  display: block;
+  width: 55px;
+  height: 4px;
+  background: #ff9b35;
+  margin: 12px auto;
+  border-radius: 5px;
+}
+
+.intro {
+  max-width: 850px;
+  margin: auto;
+  text-align: center;
+  color: #536078;
+  font-size: 17px;
+}
+
+.services { background: #edf1f7; }
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.service-card {
+  background: white;
+  padding: 30px 24px;
+  border-radius: 13px;
+  border-bottom: 4px solid #ff9b35;
+  box-shadow: 0 5px 22px rgba(16,33,63,.07);
+}
+
+.service-card h3 {
+  color: #10213f;
+  margin-bottom: 12px;
+  font-size: 21px;
+}
+
+.service-card p { color: #647087; }
+
+.engagement {
+  background: #10213f;
+  color: white;
+  text-align: center;
+}
+
+.engagement h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.engagement p {
+  max-width: 750px;
+  margin: auto;
+  color: #dce5f3;
+  font-size: 17px;
+}
+
+.advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 22px;
+}
+
+.advantage {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(16,33,63,.06);
+}
+
+.advantage h3 {
+  color: #10213f;
+  margin-bottom: 8px;
+}
+
+.advantage p { color: #647087; }
+
+.contact {
+  text-align: center;
+}
+
+.contact p {
+  max-width: 650px;
+  margin: auto;
+  color: #536078;
+}
+
+footer {
+  background: #0b172d;
+  color: #dce5f3;
+  text-align: center;
+  padding: 30px 15px;
+  font-size: 14px;
+}
+
+footer strong { color: #ff9b35; }
+
+@media(max-width: 650px) {
+  header { justify-content: center; }
+  nav { justify-content: center; gap: 14px; }
+  .hero { padding: 70px 18px; }
+  .hero h1 { font-size: 34px; }
+  section { padding: 55px 6%; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <a href="#accueil" class="logo">TURIN<span>EX</span></a>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#apropos">À propos</a>
+    <a href="#services">Nos activités</a>
+    <a href="#engagement">Notre engagement</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero" id="accueil">
+  <div class="hero-symbol">T</div>
+  <h1>TURINEX</h1>
+
+  <p>
+    Connecter les destinations, faciliter les déplacements
+    et faire avancer la logistique en Afrique.
+  </p>
+
+  <a href="#services" class="button">Découvrir nos activités</a>
+</section>
+
+<section id="apropos">
+  <div class="section-title">
+    <h2>À propos de TURINEX</h2>
+    <span></span>
+  </div>
+
+  <div class="intro">
+    TURINEX est une marque de l'univers ADDIBA,
+    destinée à développer des solutions dans les domaines
+    du transport, de la mobilité et de la logistique.
+
+    Notre ambition est de contribuer à une mobilité
+    plus accessible, à des échanges plus fluides
+    et à une logistique plus performante en Afrique.
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="section-title">
+    <h2>Nos domaines d'activité</h2>
+    <span></span>
+    <p>Des solutions pour mieux connecter les personnes et les entreprises.</p>
+  </div>
+
+  <div class="service-grid">
+
+    <div class="service-card">
+      <h3>Transport de personnes</h3>
+      <p>Développement de solutions de déplacement urbain et interurbain.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Location de véhicules</h3>
+      <p>Solutions de mobilité et de location pour les particuliers et les entreprises.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Livraison et distribution</h3>
+      <p>Solutions pour faciliter l'acheminement et la distribution des marchandises.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Transport de marchandises</h3>
+      <p>Développement de services de transport et d'acheminement de biens.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Logistique et entreposage</h3>
+      <p>Organisation, gestion et optimisation des opérations logistiques.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Mobilité intelligente</h3>
+      <p>Exploration de technologies pour améliorer les déplacements et les transports.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="engagement" id="engagement">
+  <h2>Notre engagement</h2>
+
+  <p>
+    Construire des solutions de transport et de logistique
+    fiables, accessibles et innovantes afin de participer
+    au développement économique et à la mobilité en Afrique.
+  </p>
+</section>
+
+<section>
+  <div class="section-title">
+    <h2>Nos priorités</h2>
+    <span></span>
+  </div>
+
+  <div class="advantages-grid">
+
+    <div class="advantage">
+      <h3>Accessibilité</h3>
+      <p>Faciliter l'accès aux solutions de mobilité et de transport.</p>
+    </div>
+
+    <div class="advantage">
+      <h3>Fiabilité</h3>
+      <p>Placer la qualité et la confiance au cœur des services.</p>
+    </div>
+
+    <div class="advantage">
+      <h3>Innovation</h3>
+      <p>Développer des solutions adaptées aux besoins de demain.</p>
+    </div>
+
+    <div class="advantage">
+      <h3>Développement</h3>
+      <p>Contribuer à la croissance des échanges et des activités en Afrique.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="contact">
+  <div class="section-title">
+    <h2>TURINEX et ADDIBA</h2>
+    <span></span>
+  </div>
+
+  <p>
+    TURINEX fait partie de l'univers ADDIBA,
+    un groupe qui développe plusieurs marques
+    autour d'une vision commune.
+  </p>
+
+  <a href="index.html" class="button">Retourner sur ADDIBA</a>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2026 <strong>TURINEX</strong>. Une marque du groupe ADDIBA.</p>
+  <p>Connecter les destinations. Faire avancer l'Afrique.</p>
+</footer>
+
+</body>
+  </html>
+  
