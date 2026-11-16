@@ -236,6 +236,51 @@ footer strong {
 }
 
 @media(max-width: 650px) {
+
+/* NOTRE MISSION ET NOS VALEURS */
+
+.mission {
+  background: #edf1f7;
+  text-align: center;
+}
+
+.mission-intro {
+  max-width: 800px;
+  margin: 0 auto 35px;
+  color: #536078;
+  font-size: 17px;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 22px;
+}
+
+.value-card {
+  background: white;
+  padding: 28px 20px;
+  border-radius: 14px;
+  border-bottom: 4px solid #20bd83;
+  box-shadow: 0 5px 22px rgba(17,33,63,.07);
+  transition: transform .3s;
+}
+
+.value-card:hover {
+  transform: translateY(-6px);
+}
+
+.value-card h3 {
+  color: #11213f;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.value-card p {
+  color: #647087;
+  font-size: 15px;
+}
+  
   header {
     justify-content: center;
   }
@@ -281,7 +326,7 @@ footer strong {
     <a href="#accueil">Accueil</a>
     <a href="#apropos">À propos</a>
     <a href="#marques">Nos marques</a>
-    <a href="#vision">Notre vision</a>
+    <a href="#mission">Notre mission</a>
     <a href="#fondateur">Fondateur</a>
   </nav>
 </header>
@@ -375,6 +420,49 @@ footer strong {
 </section>
 
 <section class="founder" id="fondateur">
+
+<section class="mission" id="mission">
+  <div class="section-title">
+    <h2>Notre mission et nos valeurs</h2>
+    <span></span>
+  </div>
+
+  <p class="mission-intro">
+    Notre mission est de créer, développer et accompagner
+    des entreprises innovantes qui contribuent au progrès
+    économique, technologique et social de l'Afrique.
+  </p>
+
+  <div class="values-grid">
+
+    <div class="value-card">
+      <h3>Innovation</h3>
+      <p>Imaginer des solutions nouvelles pour répondre aux défis de demain.</p>
+    </div>
+
+    <div class="value-card">
+      <h3>Excellence</h3>
+      <p>Rechercher la qualité et le professionnalisme dans toutes nos activités.</p>
+    </div>
+
+    <div class="value-card">
+      <h3>Confiance</h3>
+      <p>Construire des relations solides, transparentes et durables.</p>
+    </div>
+
+    <div class="value-card">
+      <h3>Ambition</h3>
+      <p>Voir grand, entreprendre et construire un avenir meilleur.</p>
+    </div>
+
+    <div class="value-card">
+      <h3>Impact</h3>
+      <p>Participer au développement et à la transformation de l'Afrique.</p>
+    </div>
+
+  </div>
+</section>
+  
   <div class="section-title">
     <h2>Espace fondateur</h2>
     <span></span>
