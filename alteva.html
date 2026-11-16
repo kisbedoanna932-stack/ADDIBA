@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#10213f">
+<title>ALTEVA | Solutions numériques et innovation</title>
+<meta name="description" content="ALTEVA, une marque ADDIBA dédiée aux solutions numériques, à la technologie et à l'innovation.">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #17233b;
+  line-height: 1.7;
+}
+
+header {
+  background: #10213f;
+  padding: 18px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.logo span { color: #36c99a; }
+
+nav {
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+nav a:hover { color: #36c99a; }
+
+.hero {
+  background: linear-gradient(135deg, #10213f, #244c70);
+  color: white;
+  text-align: center;
+  padding: 105px 20px;
+}
+
+.hero .symbol {
+  font-size: 65px;
+  color: #36c99a;
+  font-weight: 900;
+}
+
+.hero h1 {
+  font-size: 45px;
+  margin: 15px 0;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: auto;
+  color: #dce5f3;
+  font-size: 18px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 13px 28px;
+  background: #36c99a;
+  color: #10213f;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+section { padding: 75px 7%; }
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title h2 {
+  color: #10213f;
+  font-size: 32px;
+}
+
+.section-title span {
+  display: block;
+  width: 55px;
+  height: 4px;
+  background: #36c99a;
+  margin: 12px auto;
+  border-radius: 5px;
+}
+
+.intro {
+  max-width: 850px;
+  margin: auto;
+  text-align: center;
+  color: #536078;
+  font-size: 17px;
+}
+
+.services { background: #edf1f7; }
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.service-card {
+  background: white;
+  padding: 30px 24px;
+  border-radius: 13px;
+  border-bottom: 4px solid #36c99a;
+  box-shadow: 0 5px 22px rgba(16,33,63,.07);
+}
+
+.service-card h3 {
+  color: #10213f;
+  margin-bottom: 12px;
+  font-size: 21px;
+}
+
+.service-card p { color: #647087; }
+
+.vision {
+  background: #10213f;
+  color: white;
+  text-align: center;
+}
+
+.vision h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.vision p {
+  max-width: 750px;
+  margin: auto;
+  color: #dce5f3;
+  font-size: 17px;
+}
+
+.contact { text-align: center; }
+
+.contact p {
+  color: #536078;
+  max-width: 650px;
+  margin: auto;
+}
+
+footer {
+  background: #0b172d;
+  color: #dce5f3;
+  text-align: center;
+  padding: 30px 15px;
+  font-size: 14px;
+}
+
+footer strong { color: #36c99a; }
+
+@media(max-width: 650px) {
+  header { justify-content: center; }
+  nav { justify-content: center; gap: 14px; }
+  .hero { padding: 70px 18px; }
+  .hero h1 { font-size: 33px; }
+  section { padding: 55px 6%; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <a href="#accueil" class="logo">ALT<span>EVA</span></a>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#apropos">À propos</a>
+    <a href="#services">Nos domaines</a>
+    <a href="#vision">Notre vision</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero" id="accueil">
+  <div class="symbol">A</div>
+  <h1>ALTEVA</h1>
+  <p>
+    La technologie au service des idées.
+    Des solutions numériques pour imaginer,
+    construire et transformer l'avenir.
+  </p>
+  <a href="#services" class="button">Découvrir nos domaines</a>
+</section>
+
+<section id="apropos">
+  <div class="section-title">
+    <h2>À propos d'ALTEVA</h2>
+    <span></span>
+  </div>
+
+  <div class="intro">
+    ALTEVA est une marque de l'univers ADDIBA.
+    Elle a pour ambition de développer des solutions
+    numériques innovantes, accessibles et utiles
+    aux entreprises, aux organisations et aux particuliers.
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="section-title">
+    <h2>Nos domaines d'activité</h2>
+    <span></span>
+    <p>Des univers technologiques tournés vers l'avenir.</p>
+  </div>
+
+  <div class="service-grid">
+
+    <div class="service-card">
+      <h3>Développement web</h3>
+      <p>Création de sites web, plateformes numériques et applications modernes.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Applications mobiles</h3>
+      <p>Conception d'applications utiles, simples et accessibles.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Intelligence artificielle</h3>
+      <p>Exploration de solutions intelligentes pour améliorer les activités humaines.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Transformation numérique</h3>
+      <p>Accompagnement des organisations dans leur évolution technologique.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Cybersécurité</h3>
+      <p>Solutions et bonnes pratiques pour renforcer la sécurité numérique.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Innovation technologique</h3>
+      <p>Recherche et développement de nouvelles idées et solutions.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="vision" id="vision">
+  <h2>Notre vision</h2>
+  <p>
+    Contribuer à un avenir dans lequel la technologie
+    devient un moteur d'opportunités, de progrès
+    et de développement pour l'Afrique.
+  </p>
+</section>
+
+<section class="contact">
+  <div class="section-title">
+    <h2>ALTEVA et ADDIBA</h2>
+    <span></span>
+  </div>
+
+  <p>
+    ALTEVA fait partie de l'univers ADDIBA,
+    un groupe qui développe plusieurs marques
+    autour d'une vision commune.
+  </p>
+
+  <a href="index.html" class="button">Retourner sur ADDIBA</a>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2026 <strong>ALTEVA</strong>. Une marque du groupe ADDIBA.</p>
+  <p>La technologie au service des idées.</p>
+</footer>
+
+</body>
+  </html>
+  
